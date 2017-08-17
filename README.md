@@ -15,7 +15,7 @@ with the local path to the root of your Hovercraft presentation and
 `/path/to/presentation`.
 
 ``` bash
-docker run -it --rm -p "9000:9000" -v /path/to/presentation:/presentation local/hovercraft presentation.rst
+docker run -it --rm -p "9000:9000" -v /path/to/presentation:/presentation phpcommunity/hovercraft presentation.rst
 ```
 
 In a web browser, go to <http://localhost:9000> to view your presentation.
@@ -32,7 +32,7 @@ HTML output to be generated. This directory must exist within the
 to write to it. If the path does not exist, Hovercraft will create it.
 
 ``` bash
-docker run -it --rm -v /path/to/presentation:/presentation local/hovercraft presentation.rst my-presentation/
+docker run -it --rm -v /path/to/presentation:/presentation phpcommunity/hovercraft presentation.rst my-presentation/
 ```
 
 You may then open `my-presentation/index.html` in a web browser.
