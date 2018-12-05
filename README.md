@@ -28,7 +28,7 @@ You may then open `my-presentation/index.html` in a web browser.
 
 ## Docker Image Tags
 
-* `latest` ➜ `2.4` ([hovercraft 2.4][])
+* `latest` ➜ `2.6` ([hovercraft 2.6][])
 
 
-[hovercraft 2.4]: https://github.com/regebro/hovercraft/releases/tag/2.4
+[hovercraft 2.6]: https://github.com/regebro/hovercraft/releases/tag/2.6
